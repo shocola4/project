@@ -1,8 +1,17 @@
 <%@ page contentType="text/html;charset=utf-8" import="java.sql.*,oracle.dbpool.*"  %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+
+<%@ page import="org.apache.log4j.*" %>
+
+<%! 
+	static Logger logger = Logger.getLogger("board_list.jsp"); 
+%>
+
+
+<% logger.info("index.jsp start ~~~."); %>
 <HTML>
-	<HEAD><TITLE>컴퓨터전문쇼핑몰</TITLE>
+	<HEAD><TITLE>중고나라</TITLE>
 	</HEAD>
 	<link href="../common/u3.css" type=text/css rel=stylesheet>
 
@@ -11,19 +20,19 @@
 
 <form name=board_search align="left" method=post>
 <br>
-	<table border=1 width=550 height=50 bordercolor=gray>
+	<table border=1 width=650 height=50 bordercolor=#BDBDBD>
 		<tr>
-			<td align="left"  bordercolor=white valign="top"  style="height: 70px;border-left-width: 1; border-top-width: 5;padding-left: 4px padding-top: 10px"><font size="5" color="gray"><b>자 유 게 시 판</b></td>
+			<td align="left"  bordercolor=white valign="top"  style="height: 50px;border-left-width: 1; border-top-width: 5;padding-left: 4px padding-top: 10px"><font size="5" color="#BDBDBD"><b>자 유 게 시 판</b></td>
 		</tr>
 	</table>
 	<br>
-				   <table width="550" border="1" cellspacing="0" cellpadding="0" bordercolor="#C0C0C0" style="height: 250px; width: 800px;">
-		<tr bgcolor="#7eaee9" height=21>
-			<td width=50 align="center" bgcolor="#7EAEE9"><font size="3" >번호</font></td>
-			<td width=230  align="center">제목</td>
-			<td width=100 align="center">날짜</td>
-			<td width=100 align="center">글쓴이</td>
-			<td width=60 align="center">조회수</td>
+				   <table width="832" border="1" cellspacing="0" cellpadding="0" bordercolor="#C0C0C0" style="height:500px; width: 800px;">
+		<tr bgcolor="#7eaee9" height=15>
+			<td width=70 align="center"bgcolor="#7EAEE9"><font size="3" color="#fffff" >번호</font></td>
+			<td width=230  align="center" bgcolor="#7EAEE9" ><font size="3" color="#fffff" >제목</font></td>
+			<td width=120 align="center"bgcolor="#7EAEE9"><font size="3" color="#fffff" >날짜</font></td>
+			<td width=100 align="center"bgcolor="#7EAEE9"><font size="3" color="#fffff" >글쓴이</font></td>
+			<td width=60 align="center"bgcolor="#7EAEE9"><font size="3" color="#fffff" >조회수</font></td>
 		</tr>
 <%!   
 	int pagesize = 10;  // 한페이지당 10개 출력물
@@ -88,8 +97,8 @@
             ii--;
  %>
 		<tr height=22 bgcolor=ffffff onMouseOver=this.style.backgroundColor='#FFF8DE'  onMouseOut=this.style.backgroundColor='#FFFFFF'>
-			<td width=50 align=center><%= ii %></td>
-			<td width=230 align="left"><a href='BoardCheckPass.jsp?b_id=<%= b_id %>&b_pw=<%= b_pwd %>'>
+			<td width=50 align="left"  style="padding-left:12px;"><%= ii %></td>
+			<td width=230 align="left"  style="padding-left:12px;"><a href='BoardCheckPass.jsp?b_id=<%= b_id %>&b_pw=<%= b_pwd %>'>
 <%			
 				if(level>0) { 
 					for(int i = 0; i< level; i++){
@@ -97,14 +106,14 @@
  <%
 		        }
  %>
-				<img src="img/reply.gif" width="16" height="16"border=0>  	
+				<img src="img/reply.gif" width="20" height="16"border=0>  	
 <% 
                 } 
  %> 
              <%=b_title%></a></td>
-			 <td width=100 align=center><%=b_date%></td>
-			 <td width=100 align=center><%=b_name%></td>
-			 <td width=60 align=center><%=b_hit%></td>
+			 <td width=100 align="left"  style="padding-left:12px;" ><%=b_date%></td>
+			 <td width=100 align="left"  style="padding-left:12px;"><%=b_name%></td>
+			 <td width=20 align="left"  style="padding-left:12px;"><%=b_hit%></td>
 		  </tr>
 <%
 		k++;
@@ -123,7 +132,7 @@
 	<table width=550 bgcolor=000000 border=0 cellpadding=0 cellspacing=0>
 		<tr bgcolor=ffffff>
 			<td width=10>&nbsp;</td>
-			<td width=350  align=right valign=middle height=30>
+			<td width=350  align=right valign=middle height=50>
   
 <%		// 페이지 구현부
 			 int limit = 4 ;   //페이지 리스트 개수 지정
@@ -154,9 +163,9 @@
 			}
 %>
 			</td>
-			<td width=180 height=30 valign=middle align=right>
-			<a href="write_form.jsp"><img src="img/m_bt10.gif" border=0 align=absmiddle></a>
-			<a href="board_list.jsp"><img src="img/m_bt06.gif" border=0 align=absmiddle></a>
+			<td width=180 height=50 valign=middle align=right>
+			<a href="write_form.jsp"><img src="img/m_bt10.gif" border=0 align=absmiddle style="width:50px"></a>
+			<a href="board_list.jsp"><img src="img/m_bt06.gif" border=0 align=absmiddle style="width:60px; height:22px;"></a>
 			</td>
 			<td width=10>&nbsp;</td>
 		</tr>
@@ -164,3 +173,4 @@
 </form>
 </body>
 </html>
+<% logger.info("index.jsp end ~~~."); %>

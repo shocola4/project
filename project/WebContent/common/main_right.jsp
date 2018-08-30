@@ -3,10 +3,25 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-<table align=center border =1 width=550 cellpadding=0 cellspacing=0 bgcolor=#ffffff>
+<table align=center border =1 width=1000 cellpadding=0 cellspacing=0 bgcolor=#ffffff>
 	<tr>
-		<td><table align=center border=0 width=550  cellpadding=0 cellspacing=0 bgcolor=#ffffff><div align=left><img src="../img/bg-img1.gif" width=905 height=140 ></div></table></td>
+		<td><table align=center border=0 width=1000  cellpadding=0 cellspacing=0 bgcolor=#ffffff><div align=center><img src="../img/bg-img1.gif" width=905 height=250 ></div></table></td>
 	</tr>
+	</table>
+	<table>
+  <tr height="35px;">
+    <td></td>
+  </tr>
+
+</table>
+
+
+<table>
+  
+</table>
+
+	<table align=center border =1 width=550 cellpadding=0 cellspacing=0 bgcolor=#ffffff>
+	
 	<!-- 최신상품 출력  -->
 	<tr>
 		<div align=center><td bgcolor=white><img src="../img/title_newproduct.gif"></div></td>
@@ -61,6 +76,7 @@
 			</table>
 		</td> 
 	</tr>
+
 
 	<!-- 베스트 상품 -->
 	<tr><div align=center>
@@ -191,6 +207,7 @@
 </td>
 
 <!-- 추천상품(오른쪽 메뉴) -->
+<td valign=top width=205>
 <td valign=top width=205>
 <table border=0 cellpadding=0 cellspacing=0 width=195>
 	<tr><div align=left>

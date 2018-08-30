@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=EUC_KR"  %>
+<%@ page contentType="text/html;charset=utf-8"  %>
 
 <%  String pid = (String) session.getAttribute("pid");%>
 
@@ -71,8 +71,8 @@ function MM_swapImage() {
 <table width="790"  border="0" cellspacing="0" cellpadding="0" height="39">
 <tbody valign="top" align="left" bgcolor="#EEEEEE">
   <tr valign="middle" align="right" height="19">
-    <td width="82" valign="middle" height="18"></td>
-    <td width="82" valign="middle" height="18"><a href="../main/index.jsp" onMouseOver="document.images[1].src='../img/menubar_2_home.gif';"
+    <td width="100" valign="middle" height="18"></td>
+    <td width="100" valign="middle" height="18"><a href="../main/index.jsp" onMouseOver="document.images[1].src='../img/menubar_2_home.gif';"
    onMouseOut="document.images[1].src='../img/menubar_1_home.gif';">
    <img src="../img/menubar_1_home.gif" ></a></td>
 
@@ -118,19 +118,19 @@ function MM_swapImage() {
 	<tr> 
       <td width="100" onMouseOver="this.style.backgroundColor='#CDCDCD'" onMouseOut="this.style.backgroundColor=''"> 
         <div align="center"> &nbsp;<span class="layerstyle">
-		<a href="../shoppingmall/gongi.jsp">°øÁö»çÇ×</a></span> </div>
+		<a href="../shoppingmall/gongi.jsp">ê³µì§€ì‚¬í•­</a></span> </div>
       </td>
       <td width="100" onMouseOver="this.style.backgroundColor='#CDCDCD'" onMouseOut="this.style.backgroundColor=''"> 
         <div align="center"><span class="layerstyle">
-		<a href="../shoppingmall/newproduct.jsp">½Å»óÇ° ÄÚ³Ê</a></span> </div>
+		<a href="../shoppingmall/newproduct.jsp">ì‹ ìƒí’ˆ ì½”ë„ˆ</a></span> </div>
       </td>
       <td width="100" onMouseOver="this.style.backgroundColor='#CDCDCD'" onMouseOut="this.style.backgroundColor=''"> 
         <div align="center"><span class="layerstyle">
-		<a href="../shoppingmall/pc_calculation.jsp">Á¶¸³ PC°ßÀû</a></span> </div>
+		<a href="../shoppingmall/pc_calculation.jsp">ì¡°ë¦½ PCê²¬ì </a></span> </div>
       </td>
       <td width="100" onMouseOver="this.style.backgroundColor='#CDCDCD'" onMouseOut="this.style.backgroundColor=''"> 
         <div align="center" class="layerstyle">
-		<a href="../shoppingmall/gongdong.jsp">°øµ¿±¸¸Å</a></div>
+		<a href="../shoppingmall/gongdong.jsp">ê³µë™êµ¬ë§¤</a></div>
       </td>
     </tr>
   </table>
@@ -140,7 +140,7 @@ function MM_swapImage() {
   <table width="100" border="0" cellspacing="2" cellpadding="0" height="20" onMouseOut="MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','hide','Layer4','','hide')" onMouseOver="MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','hide','Layer4','','show')" bgcolor="#EAEAEA">
     <tr> 
    <td width="100" onMouseOver="this.style.backgroundColor='#CDCDCD'" onMouseOut="this.style.backgroundColor=''"> 
-        <div align="center" class="layerstyle"><a href="../mypage/view_user.jsp?user_id=<%=pid %>">ÀÚ±âÁ¤º¸¼öÁ¤</a></div>
+        <div align="center" class="layerstyle"><a href="../mypage/view_user.jsp?user_id=<%=pid %>">ìžê¸°ì •ë³´ìˆ˜ì •</a></div>
       </td>
     </tr>
 <tbody>
@@ -151,7 +151,7 @@ function MM_swapImage() {
   <table width="160" border="0" cellspacing="2" cellpadding="0" height="20" onMouseOver="MM_showHideLayers('Layer1','','hide','Layer2','','show','Layer3','','hide','Layer4','','hide')" onMouseOut="MM_showHideLayers('Layer2','','hide','Layer1','','hide','Layer4','','hide','Layer3','','hide')">
     <tr bgcolor="#EAEAEA">        
       <td width="80" onMouseOver="this.style.backgroundColor='#CDCDCD'" onMouseOut="this.style.backgroundColor=''"> 
-	<div align="center"><span class="layerstyle"><a href="../board/reply_list.jsp">ÀÚÀ¯°Ô½ÃÆÇ</a></span> </div>
+	<div align="center"><span class="layerstyle"><a href="../board/reply_list.jsp">ìžìœ ê²Œì‹œíŒ</a></span> </div>
       </td>
       <td width="80" onMouseOver="this.style.backgroundColor='#CDCDCD'" onMouseOut="this.style.backgroundColor=''"> 
         <div align="center" class="layerstyle"><a href="../FAQ/faq.jsp">FAQ</a></div>

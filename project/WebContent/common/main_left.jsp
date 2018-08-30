@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=euc-kr" %>
+<%@ page contentType="text/html;charset=utf-8" %>
 
 <script language="JavaScript">
 <!--
@@ -34,54 +34,68 @@ function MM_showHideLayers() {
 </script>
 
 <body>
-<table width=200 border=1 cellspacing=0 cellpadding=0 align=left height=840>
+<table>
+<tr height="8"><td></td></tr>
+</table>
+
+<table width=210 border=0 cellspacing=0 cellpadding=0 align=left height=90>
+   <tr>
+      <td height=22 valign=middle align=center><img src="../img/product_insert.jpg" width=210 height=89  style="cursor:hand" onclick=location="../board/write_form.jsp"></td>
+   </tr>
+     </table>
+<table>
+<tr height="8"><td></td></tr>
+</table>
+
+<table width=200 border=1 cellspacing=0 cellpadding=0 align=left height=300>
+<img src="../img/category_top.jpg" width="219" height="30" border="0" style="
+    width: 220x;
+    height: 33px;
+">
+</table>
+
+<table width=200 border=0 cellspacing=0 cellpadding=0 align=left height=348>
 <tbody valign=top align=left bgcolor=white>
 <tr> 
     <td width=200 height=40 valign=top bgcolor=#ffffff >
    
 
-     <table width=200 border=1 cellspacing=1 cellpadding=0>
-     <tr> 
-         <td height=22 valign=middle align=center><img src="../img/m_ani.gif" width=210 height=35></td>
+     <table width=200 border=0 cellspacing=1 cellpadding=0>
+  
+      <tr> 
+          <td><a href="../product/categoryall.jsp?c=23" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','../img/nav_1_back.jpg',1);MM_showHideLayers('computer','','show','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','hide')"><img name="Image1" border=0 src="../img/nav_1.jpg" width=210 height=40 style="padding-bottom:8px"></a></td>
       </tr>
       <tr> 
-          <td><a href="../product/categoryall.jsp?c=23" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','../img/nav_1_back.gif',1);MM_showHideLayers('computer','','show','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','hide')"><img name="Image1" border=0 src="../img/nav_1.gif" width=210 height=40></a></td>
+          <td><a href="../product/categoryall.jsp?c=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../img/nav_ï¼’_back.jpg',1);MM_showHideLayers('computer','','hide','pc','','show','software','','hide','network','','hide','digital','','hide','etc','','hide')"><img name="Image2" border=0 src="../img/nav_2.jpg" width=210 height=40 style="padding-bottom:8px"></a></td>
       </tr>
       <tr> 
-          <td><a href="../product/categoryall.jsp?c=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../img/nav_2_back.gif',1);MM_showHideLayers('computer','','hide','pc','','show','software','','hide','network','','hide','digital','','hide','etc','','hide')"><img name="Image2" border=0 src="../img/nav_2.gif" width=210 height=40></a></td>
+          <td><a href="../product/categoryall.jsp?c=40" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','../img/nav_ï¼“_back.jpg',1);MM_showHideLayers('computer','','hide','pc','','hide','software','','show','network','','hide','digital','','hide','etc','','hide')"><img name="Image3" border=0 src="../img/nav_3.jpg" width=210 height=40 style="padding-bottom:8px"></a></td>
       </tr>
       <tr> 
-          <td><a href="../product/categoryall.jsp?c=40" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','../img/nav_3_back.gif',1);MM_showHideLayers('computer','','hide','pc','','hide','software','','show','network','','hide','digital','','hide','etc','','hide')"><img name="Image3" border=0 src="../img/nav_3.gif" width=210 height=40></a></td>
-      </tr>
-      <tr> 
-          <td><a href="../product/categoryall.jsp?c=26" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','../img/nav_4_back.gif',1);MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','show','digital','','hide','etc','','hide')"><img name="Image4" border=0 src="../img/nav_4.gif" width=210 height=40></a></td>
+          <td><a href="../product/categoryall.jsp?c=26" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','../img/nav_ï¼”_back.jpg',1);MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','show','digital','','hide','etc','','hide')"><img name="Image4" border=0 src="../img/nav_4.jpg" width=210 height=40 style="padding-bottom:8px"></a></td>
        </tr>
        <tr> 
-           <td><a href="../product/categoryall.jsp?c=34" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','../img/nav_5_back.gif',1);MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','show','etc','','hide')"><img name="Image5" border=0 src="../img/nav_5.gif" width=210 height=40></a></td>
+           <td><a href="../product/categoryall.jsp?c=34" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','../img/nav_ï¼•_back.jpg',1);MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','show','etc','','hide')"><img name="Image5" border=0 src="../img/nav_ï¼•.jpg" width=210 height=40 style="padding-bottom:8px"></a></td>
        </tr>
        <tr> 
-           <td><a href="../product/categoryall.jsp?c=19" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','../img/nav_6_back.gif',1);MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','show')"><img name="Image6" border=0 src="../img/nav_6.gif" width=210 height=40></a></td>
+           <td><a href="../product/categoryall.jsp?c=19" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','../img/nav_ï¼–_back.jpg',1);MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','show')"><img name="Image6" border=0 src="../img/nav_6.jpg" width=210 height=40 style="padding-bottom:8px"></a></td>
       </tr>
      </table>
 
-<table width=200 border=2 cellspacing=1 cellpadding=0>   
-  <tr> 
-      <td><img src="../img/image_case.gif" width=200 height=320></td>
-  </tr>
-</table>
 
-<div id="computer" style="position:absolute; left:123px; top:220px; width:100px; z-index:200; visibility: hidden"> 
+
+<div id="computer" style="position:absolute; left:215px; top:330px; width:100px; z-index:200; visibility: hidden"> 
   <table width=110 border=1 cellspacing=1 cellpadding=0 bgcolor="#d59bd7" onMouseOver="MM_showHideLayers('computer','','show','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','hide')" onMouseOut="MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','hide')">
     <tr> 
-      <td  onmouseover="this.style.background='#ffff99'" style="padding-top: 2px" onmouseout="this.style.background='#edfaee'" bgcolor=#ffffcc  height=14><a href="../product/category.jsp?c=23" target=_top>&nbsp;&nbsp;ºê·£µå PC</a></td></tr>
+      <td  onmouseover="this.style.background='#ffff99'" style="padding-top: 2px" onmouseout="this.style.background='#edfaee'" bgcolor=#ffffcc  height=14><a href="../product/category.jsp?c=23" target=_top>&nbsp;&nbsp;ë¸Œëœë“œ PC</a></td></tr>
    <tr>
-       <td onmouseover="this.style.background='#ffff99'" style="padding-top: 2px" onmouseout="this.style.background='#edfaee'" bgcolor=#ffffcc height=14><a href="../product/category.jsp?c=24" target=_top>&nbsp;&nbsp;³ëÆ®ºÏ</a></td></tr>
+       <td onmouseover="this.style.background='#ffff99'" style="padding-top: 2px" onmouseout="this.style.background='#edfaee'" bgcolor=#ffffcc height=14><a href="../product/category.jsp?c=24" target=_top>&nbsp;&nbsp;ë…¸íŠ¸ë¶</a></td></tr>
    <tr>
-       <td onmouseover="this.style.background='#ffff99'" style="padding-top: 2px" onmouseout="this.style.background='#edfaee'" bgcolor=#ffffcc height=14><a href="../product/category.jsp?c=25" target=_top>&nbsp;&nbsp;³ëÆ®ºÏ ÁÖº¯±â±â</a></td></tr>
+       <td onmouseover="this.style.background='#ffff99'" style="padding-top: 2px" onmouseout="this.style.background='#edfaee'" bgcolor=#ffffcc height=14><a href="../product/category.jsp?c=25" target=_top>&nbsp;&nbsp;ë…¸íŠ¸ë¶ ì£¼ë³€ê¸°ê¸°</a></td></tr>
   </table>
 </div>
 
-<div id="pc" style="position:absolute; left:123px; top:245px; width:100px; z-index:200; visibility: hidden"> 
+<div id="pc" style="position:absolute; left:215px; top:245px; width:100px; z-index:200; visibility: hidden"> 
   <table width=110 border=1 cellspacing=2 cellpadding=0 bgcolor="#d59bd7" onMouseOver="MM_showHideLayers('computer','','hide','pc','','show','software','','hide','network','','hide','digital','','hide','etc','','hide')" onMouseOut="MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','hide')">
    <tr>
        <td onmouseover="this.style.background='#f4daf4'"  style="padding-top: 2px"  onmouseout="this.style.background='#f8eef8';" width=94  bgcolor=#f8eef8><a href="../product/category.jsp?c=1" target=_top>&nbsp;&nbsp;C P U</a></td> </tr>
@@ -89,63 +103,63 @@ function MM_showHideLayers() {
        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=2" target=_top>&nbsp;&nbsp;R A M</a></td>
    </tr>
    <tr>
-       <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'" bgcolor=#f8eef8><a href="../product/category.jsp?c=3"  target=_top>&nbsp;&nbsp;¸ŞÀÎº¸µå</a></td></tr>
+       <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'" bgcolor=#f8eef8><a href="../product/category.jsp?c=3"  target=_top>&nbsp;&nbsp;ë©”ì¸ë³´ë“œ</a></td></tr>
    <tr>
-       <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'" bgcolor=#f8eef8><a href="../product/category.jsp?c=4" target=_top>&nbsp;&nbsp;ÇÏµåµğ½ºÅ©</a></td></tr>
+       <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'" bgcolor=#f8eef8><a href="../product/category.jsp?c=4" target=_top>&nbsp;&nbsp;í•˜ë“œë””ìŠ¤í¬</a></td></tr>
    <tr>
-       <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"             bgcolor=#f8eef8><a href="../product/category.jsp?c=5" target=_top>&nbsp;&nbsp;V G A Ä«µå</a></td>
+       <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"             bgcolor=#f8eef8><a href="../product/category.jsp?c=5" target=_top>&nbsp;&nbsp;V G A ì¹´ë“œ</a></td>
 	</tr>
     <tr>
-        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8';" width=94 bgcolor=#f8eef8><a href="../product/category.jsp?c=6" target=_top>&nbsp;&nbsp;»ç¿îµå Ä«µå</a></td></tr>
+        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8';" width=94 bgcolor=#f8eef8><a href="../product/category.jsp?c=6" target=_top>&nbsp;&nbsp;ì‚¬ìš´ë“œ ì¹´ë“œ</a></td></tr>
    <tr>
-       <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=7" target=_top>&nbsp;&nbsp;¸ğ´ÏÅÍ</a></td></tr>
+       <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=7" target=_top>&nbsp;&nbsp;ëª¨ë‹ˆí„°</a></td></tr>
    <tr>
        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=8" target=_top>&nbsp;&nbsp;CD-ROM</a></td></tr>
     <tr>
-        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=10" target=_top>&nbsp;&nbsp;¸¶¿ì½º</a></td></tr>
+        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=10" target=_top>&nbsp;&nbsp;ë§ˆìš°ìŠ¤</a></td></tr>
     <tr>
-        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=13" target=_top>&nbsp;&nbsp;Å°º¸µå</a></td></tr>
+        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=13" target=_top>&nbsp;&nbsp;í‚¤ë³´ë“œ</a></td></tr>
     <tr>
-        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=14" target=_top>&nbsp;&nbsp;·£Ä«µå</a></td></tr>
+        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=14" target=_top>&nbsp;&nbsp;ëœì¹´ë“œ</a></td></tr>
     <tr>
-        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=15" target=_top>&nbsp;&nbsp;½ºÇÇÄ¿</a></td></tr>
+        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=15" target=_top>&nbsp;&nbsp;ìŠ¤í”¼ì»¤</a></td></tr>
     <tr>
-        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=16" target=_top>&nbsp;&nbsp;½ºÄÉ³Ê</a></td></tr>
+        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'"  bgcolor=#f8eef8><a href="../product/category.jsp?c=16" target=_top>&nbsp;&nbsp;ìŠ¤ì¼€ë„ˆ</a></td></tr>
     <tr>
-        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'" bgcolor=#f8eef8><a href="../product/category.jsp?c=17" target=_top>&nbsp;&nbsp;ÇÁ¸°ÅÍ</a></td></tr>
+        <td onmouseover="this.style.background='#f4daf4'" style="padding-top: 2px" onmouseout="this.style.background='#f8eef8'" bgcolor=#f8eef8><a href="../product/category.jsp?c=17" target=_top>&nbsp;&nbsp;í”„ë¦°í„°</a></td></tr>
   </table>
 </div>
 
-<div id="software" style="position:absolute; left:123px; top:275px; width:100px; z-index:200; visibility: hidden"> 
+<div id="software" style="position:absolute; left:215px; top:420px; width:100px; z-index:200; visibility: hidden"> 
   <table width=110 border=1 cellspacing=2 cellpadding=0 bgcolor="#de93a1" onMouseOver="MM_showHideLayers('computer','','hide','pc','','hide','software','','show','network','','hide','digital','','hide','etc','','hide')" onMouseOut="MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','hide')">
    <tr>
-        <td onmouseover="this.style.background='#00ff99'" style="padding-top: 2px"  onmouseout="this.style.background='#f9edef'" width=99 bgcolor=#f9edef><a  href="../product/category.jsp?c=40" target=_top>&nbsp;&nbsp;¿î¿µÃ¼Á¦</a></td></tr>
+        <td onmouseover="this.style.background='#00ff99'" style="padding-top: 2px"  onmouseout="this.style.background='#f9edef'" width=99 bgcolor=#f9edef><a  href="../product/category.jsp?c=40" target=_top>&nbsp;&nbsp;ìš´ì˜ì²´ì œ</a></td></tr>
 	<tr>
-         <td onmouseover="this.style.background='#00ff99'" style="padding-top: 2px" onmouseout="this.style.background='#f9edef'" width=99 bgcolor=#f9edef><a  href="../product/category.jsp?c=31" target=_top>&nbsp;&nbsp;°³¹ßÅø</a></td></tr>
+         <td onmouseover="this.style.background='#00ff99'" style="padding-top: 2px" onmouseout="this.style.background='#f9edef'" width=99 bgcolor=#f9edef><a  href="../product/category.jsp?c=31" target=_top>&nbsp;&nbsp;ê°œë°œíˆ´</a></td></tr>
     <tr>
-         <td onmouseover="this.style.background='#00ff99'" style="padding-top: 2px" onmouseout="this.style.background='#f9edef'" width=99 bgcolor=#f9edef><a href="../product/category.jsp?c=32"  target=_top>&nbsp;&nbsp;¸ÖÆ¼¹Ìµğ¾î</a></td></tr>
+         <td onmouseover="this.style.background='#00ff99'" style="padding-top: 2px" onmouseout="this.style.background='#f9edef'" width=99 bgcolor=#f9edef><a href="../product/category.jsp?c=32"  target=_top>&nbsp;&nbsp;ë©€í‹°ë¯¸ë””ì–´</a></td></tr>
     <tr>
-      <td onmouseover="this.style.background='#00ff99'" style="padding-top: 2px" onmouseout="this.style.background='#f9edef'" width=99 bgcolor=#f9edef><a href="../product/category.jsp?c=33" target=_top>&nbsp;&nbsp;OFFICE¿ë</a></td></tr>
+      <td onmouseover="this.style.background='#00ff99'" style="padding-top: 2px" onmouseout="this.style.background='#f9edef'" width=99 bgcolor=#f9edef><a href="../product/category.jsp?c=33" target=_top>&nbsp;&nbsp;OFFICEìš©</a></td></tr>
   </table>
 </div>
 
-<div id="network" style="position:absolute; left:123px; top:400px; width:100px; z-index:200; visibility: hidden"> 
+<div id="network" style="position:absolute; left:215px; top:478px; width:100px; z-index:200; visibility: hidden"> 
   <table width=110 border=1 cellspacing=2 cellpadding=0 bgcolor="#95c7dd" onMouseOver="MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','show','digital','','hide','etc','','hide')" onMouseOut="MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','hide')">
   <tr>
-      <td onmouseover="this.style.background='#d2e9f2'" style="padding-top: 2px" onmouseout="this.style.background='#edf5f9'"  bgcolor=#edf5f9><a href="../product/category.jsp?c=26" target=_top>&nbsp;&nbsp;°øÀ¯±â/ºĞ¹è±â</font></a></td>
+      <td onmouseover="this.style.background='#d2e9f2'" style="padding-top: 2px" onmouseout="this.style.background='#edf5f9'"  bgcolor=#edf5f9><a href="../product/category.jsp?c=26" target=_top>&nbsp;&nbsp;ê³µìœ ê¸°/ë¶„ë°°ê¸°</font></a></td>
   <tr>
-      <td onmouseover="this.style.background='#d2e9f2'" style="padding-top: 2px" onmouseout="this.style.background='#edf5f9'"  bgcolor=#edf5f9><a href="../product/category.jsp?c=27" target=_top>&nbsp;&nbsp;ÀÎÅÍ³İ°øÀ¯±â</a></td>
+      <td onmouseover="this.style.background='#d2e9f2'" style="padding-top: 2px" onmouseout="this.style.background='#edf5f9'"  bgcolor=#edf5f9><a href="../product/category.jsp?c=27" target=_top>&nbsp;&nbsp;ì¸í„°ë„·ê³µìœ ê¸°</a></td>
  <tr>
-     <td onmouseover="this.style.background='#d2e9f2'" style="padding-top: 2px" onmouseout="this.style.background='#edf5f9'"  bgcolor=#edf5f9><a href="../product/category.jsp?c=28"  target=_top>&nbsp;&nbsp;·£Ä«µå</a></td></tr>
+     <td onmouseover="this.style.background='#d2e9f2'" style="padding-top: 2px" onmouseout="this.style.background='#edf5f9'"  bgcolor=#edf5f9><a href="../product/category.jsp?c=28"  target=_top>&nbsp;&nbsp;ëœì¹´ë“œ</a></td></tr>
    </table>
 </div>
 
-<div id="digital" style="position:absolute; left:123px; top:330px; width:100px; z-index:200; visibility: hidden"> 
+<div id="digital" style="position:absolute; left:215px; top:528px; width:100px; z-index:200; visibility: hidden"> 
   <table width=110 border=1 cellspacing=2 cellpadding=0 bgcolor="#9bcbd7" onMouseOver="MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','show','etc','','hide')" onMouseOut="MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','hide')">
    <tr>
-        <td onmouseover="this.style.background='#ffccff'" style="padding-top: 2px"  onmouseout="this.style.background='#eef6f8'" width=94 bgcolor=#eef6f8><a href="../product/category.jsp?c=34" target=_top>&nbsp;&nbsp;µğÁöÅ»Ä«¸Ş¶ó</font></a></td></tr>
+        <td onmouseover="this.style.background='#ffccff'" style="padding-top: 2px"  onmouseout="this.style.background='#eef6f8'" width=94 bgcolor=#eef6f8><a href="../product/category.jsp?c=34" target=_top>&nbsp;&nbsp;ë””ì§€íƒˆì¹´ë©”ë¼</font></a></td></tr>
    <tr>
-        <td onmouseover="this.style.background='#ffccff'" style="padding-top: 2px" onmouseout="this.style.background='#eef6f8'" bgcolor=#eef6f8><a href="../product/category.jsp?c=35"target=_top>&nbsp;&nbsp;È­»óÄ«¸Ş¶ó</a></td></tr>
+        <td onmouseover="this.style.background='#ffccff'" style="padding-top: 2px" onmouseout="this.style.background='#eef6f8'" bgcolor=#eef6f8><a href="../product/category.jsp?c=35"target=_top>&nbsp;&nbsp;í™”ìƒì¹´ë©”ë¼</a></td></tr>
    <tr>
       <td onmouseover="this.style.background='#ffccff'"  style="padding-top: 2px" onmouseout="this.style.background='#f7f0f0'" width=94  bgcolor=#f7f0f0><a href="../product/category.jsp?c=37" target=_top>&nbsp;&nbsp;P D A</a></td></tr>
     <tr>
@@ -153,31 +167,44 @@ function MM_showHideLayers() {
   </table>
 </div>
 
-<div id="etc" style="position:absolute; left:123px; top:360px; width:100px; z-index:200; visibility: hidden"> 
+<div id="etc" style="position:absolute; left:215px; top:569px; width:100px; z-index:200; visibility: hidden"> 
   <table width=110 border=1 cellspacing=2 cellpadding=0 bgcolor="#9ba9d7" onMouseOver="MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','show')" onMouseOut="MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','hide')">
    <tr>
-       <td onmouseover="this.style.background='#d4d8e8'" style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'" width=94  bgcolor=#eef0f8><a href="../product/category.jsp?c=19"  target=_top>&nbsp;&nbsp;ÀúÀå¹Ìµğ¾î</a></td></tr>
+       <td onmouseover="this.style.background='#d4d8e8'" style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'" width=94  bgcolor=#eef0f8><a href="../product/category.jsp?c=19"  target=_top>&nbsp;&nbsp;ì €ì¥ë¯¸ë””ì–´</a></td></tr>
    <tr>
          <td onmouseover="this.style.background='#d4d8e8'" style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'" bgcolor=#eef0f8><a href="../product/category.jsp?c=20" target=_top>&nbsp;&nbsp;C D</a></td></tr>
    <tr>
-        <td onmouseover="this.style.background='#d4d8e8'"  style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'" bgcolor=#eef0f8><a href="../product/category.jsp?c=21" target=_top>&nbsp;&nbsp;ÇÁ¸°ÅÍÀ×Å©Åä³Ê</a></td></tr>
+        <td onmouseover="this.style.background='#d4d8e8'"  style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'" bgcolor=#eef0f8><a href="../product/category.jsp?c=21" target=_top>&nbsp;&nbsp;í”„ë¦°í„°ì‰í¬í† ë„ˆ</a></td></tr>
    <tr>
-        <td onmouseover="this.style.background='#d4d8e8'" style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'"  bgcolor=#eef0f8><a href="../product/category.jsp?c=22" target=_top>&nbsp;&nbsp;ÄÄÇ»ÅÍ»ç¹«¿ëÇ°</a></td></tr>
+        <td onmouseover="this.style.background='#d4d8e8'" style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'"  bgcolor=#eef0f8><a href="../product/category.jsp?c=22" target=_top>&nbsp;&nbsp;ì»´í“¨í„°ì‚¬ë¬´ìš©í’ˆ</a></td></tr>
 </table>
 </div>
 
-<div id="etc" style="position:absolute; left:123px; top:360px; width:100px; z-index:200; visibility: hidden"> 
+<div id="etc" style="position:absolute; left:215px; top:360px; width:100px; z-index:200; visibility: hidden"> 
   <table width=110 border=1 cellspacing=2 cellpadding=0 bgcolor="#9ba9d7" onMouseOver="MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','show')" onMouseOut="MM_showHideLayers('computer','','hide','pc','','hide','software','','hide','network','','hide','digital','','hide','etc','','hide')">
    <tr>
-       <td onmouseover="this.style.background='#d4d8e8'" style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'" width=94  bgcolor=#eef0f8><a href="../product/category.jsp?c=19"  target=_top>&nbsp;&nbsp;ÀúÀå¹Ìµğ¾î</a></td></tr>
+       <td onmouseover="this.style.background='#d4d8e8'" style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'" width=94  bgcolor=#eef0f8><a href="../product/category.jsp?c=19"  target=_top>&nbsp;&nbsp;ì €ì¥ë¯¸ë””ì–´</a></td></tr>
    <tr>
          <td onmouseover="this.style.background='#d4d8e8'" style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'" bgcolor=#eef0f8><a href="../product/category.jsp?c=20" target=_top>&nbsp;&nbsp;C D</a></td></tr>
    <tr>
-        <td onmouseover="this.style.background='#d4d8e8'"  style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'" bgcolor=#eef0f8><a href="../product/category.jsp?c=21" target=_top>&nbsp;&nbsp;ÇÁ¸°ÅÍÀ×Å©Åä³Ê</a></td></tr>
+        <td onmouseover="this.style.background='#d4d8e8'"  style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'" bgcolor=#eef0f8><a href="../product/category.jsp?c=21" target=_top>&nbsp;&nbsp;í”„ë¦°í„°ì‰í¬í† ë„ˆ</a></td></tr>
    <tr>
-        <td onmouseover="this.style.background='#d4d8e8'" style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'"  bgcolor=#eef0f8><a href="../product/category.jsp?c=22" target=_top>&nbsp;&nbsp;ÄÄÇ»ÅÍ»ç¹«¿ëÇ°</a></td></tr>
+        <td onmouseover="this.style.background='#d4d8e8'" style="padding-top: 2px" onmouseout="this.style.background='#eef0f8'"  bgcolor=#eef0f8><a href="../product/category.jsp?c=22" target=_top>&nbsp;&nbsp;ì»´í“¨í„°ì‚¬ë¬´ìš©í’ˆ</a></td></tr>
 </table>
 </div>
 </tbody>
 </table>
+<img src="../img/category_bottom.jpg" width="219" height="30" border="0" style="
+    width: 220x;
+    height: 33px;
+">
+<table>
+<tr height="8"><td></td></tr>
+</table>
+
+<table width=200 border=1 cellspacing=0 cellpadding=0 align=left height=300>
+<tr>
+<td><img src="../img/image_case.gif" width=125 height=150></td>
+   </tr>
+     </table>
 </body>

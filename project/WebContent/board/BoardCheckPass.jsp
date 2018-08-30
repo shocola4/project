@@ -7,6 +7,8 @@
    
 <title>게시글비밀번호</title>
 
+<link href="../common/u3.css" type=text/css rel=stylesheet>
+
 <%String b_id = request.getParameter("b_id");%>
 <%String b_pw = request.getParameter("b_pw");%>
 
