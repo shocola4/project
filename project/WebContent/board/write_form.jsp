@@ -38,10 +38,10 @@
     <jsp:include page="../common/basic_screen.jsp" flush="true"/>
 
 <br>
-<form name=bbs_form method=post action="write.jsp">
+
 	   <table border=0 width=685 height=30 >
 		<tr>
-			<td align=left ><font size=6 color=#E6E6E6><b>◎게시물 올리기</b></td>
+			<td align=left ><font size=6 color=#D8D8D8><b>◎게시물 올리기</b></td>
 		</tr>
 	  </table>
 	  <br>
@@ -50,13 +50,14 @@
 			<td ></td>
 		</tr>
 	  </table>	  
-	  
-<table width="688" height="872" border="2" valign="middle" align="center" cellspacing="0" cellpadding="0" bordercolor=#E6E6E6>
+
+<form name=bbs_form method=post action="write.jsp">	  
+<table width="688" height="872" border="2" valign="middle" align="center" cellspacing="0" cellpadding="0" >
 	<tr>
 	   <td width=100 height=45 align=center bgcolor="#7eaee9"><font color="#fffff">등록자</td>
 	   <td width=225>&nbsp;<input type="text" name="b_name" size=25 value=""></td>
 	   <td width=116 height=40 align=center bgcolor="#7eaee9"><font color="#fffff">비밀번호</td>
-	   <td width=146>&nbsp;<input type="password" name="pwd" size=17 value=""></td>
+	   <td width=158>&nbsp;<input type="password" name="pwd" size=17 value=""></td>
 	</tr>	
 	<tr>
 	  <td width=120 height="35" align=center bgcolor="#7eaee9"><font color="#fffff">e-mail</td>
@@ -70,7 +71,7 @@
   <td colspan=3 bgcolor=ffffff>
       <table>
        <tr >
-           <textarea cols=70 rows=20  name="content" style="height:712;"></textarea></td>
+           <textarea cols=70 rows=20  name="b_content" style="height:712;"></textarea></td>
       </tr>
    </table>
 	  <tr>

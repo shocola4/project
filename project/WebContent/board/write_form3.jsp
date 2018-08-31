@@ -47,39 +47,47 @@
     <jsp:include page="../common/basic_screen.jsp" flush="true"/>
 
 <br>
-<form name=bbs_form method="post" action="write3.jsp" enctype="multipart/form-data">
-	  <table border=1 width=550 height=30 bordercolor=black>
+
+	   <table border=0 width=685 height=30 >
 		<tr>
-			<td align=center bgcolor=0063ce><font size=3 color=#FFFFFF><b>게시물 올리기</b></td>
+			<td align=left ><font size=6 color=#D8D8D8><b>◎게시물 올리기</b></td>
 		</tr>
 	  </table>
 	  <br>
-<table width=550 border=1>
-	<tr>
-	   <td width=100 align=center bgcolor="#7eaee9">등록자</td>
-	   <td width=170>&nbsp;<input type="text" name="b_name" size=20 value=""></td>
-	   <td width=100 align=center bgcolor="#7eaee9">비밀번호</td>
-	   <td width=170>&nbsp;<input type="password" name="pwd" size=15 value=""></td>
+<table  height=8 >
+		<tr>
+			<td ></td>
+		</tr>
+	  </table>	  
+
+<form name=bbs_form method="post" action="write3.jsp" enctype="multipart/form-data">
+	
+<table width="688" height="872" border="2" valign="middle" align="center" cellspacing="0" cellpadding="0" >
+<tr>
+	   <td width=100 height=45 align=center bgcolor="#7eaee9"><font color="#fffff">등록자</td>
+	   <td width=225>&nbsp;<input type="text" name="b_name" size=25 value=""></td>
+	   <td width=116 height=40 align=center bgcolor="#7eaee9"><font color="#fffff">비밀번호</td>
+	   <td width=158>&nbsp;<input type="password" name="pwd" size=14 value=""></td>
 	</tr>	
-	<tr>
-	   <td width=100 align=center bgcolor="#7eaee9">e-mail</td>
+<tr>
+	  <td width=120 height="35" align=center bgcolor="#7eaee9"><font color="#fffff">e-mail</td>
 	   <td  colspan=3>&nbsp;<input type="text" name="b_email" size=30></td>
 	</tr>
 	<tr>
 	<form method="post" enctype="multipart/form-data" action="imgup.jsp">
-		<td width=100 align=center bgcolor="#7eaee9">파일첨부</td>
+		<td width=100 height="35" align=center bgcolor="#7eaee9"> <font color="#fffff">파일첨부</td>
 		<td  colspan=3>&nbsp;<input type="file"   name="upload_file"></td>
 		</form>
 	</tr>	
 	<tr>
-	   <td align=center bgcolor="#7eaee9">제 목</td>
-	   <td colspan=3>&nbsp;<input type="text" name="b_title" size=40></td>
+	   <td align=center height="53" bgcolor="#7eaee9"><font color="#fffff">제 목</td>
+	   <td colspan=3>&nbsp;<input type="text" name="b_title" size=65></td>
 	</tr>	
-	   <td align=center bgcolor="#7eaee9">내 용</td>
-	   <td colspan=3>
-   <table>
-      <tr>
-         <td><textarea cols=60 rows=15 name="b_content"></textarea></td>
+	<td align=center bgcolor="#7eaee9" ><font color="#fffff">내 용</td>
+  <td colspan=3 bgcolor=ffffff>
+      <table>
+       <tr >
+           <textarea cols=70 rows=20  name="b_content" style="height:602;"></textarea></td>
       </tr>
    </table>
 	  <tr>

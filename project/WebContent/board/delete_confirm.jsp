@@ -18,6 +18,14 @@
 			<td align=center><font color="#ffffff"><b>게시물의 비밀번호를 입력하세요.</b></font></td>
 		</tr>
 	</table>
+	&nbsp;
+	<table >
+	<tr>
+	<td>
+	<img src="img/b_re.gif" border=0>
+	</td>
+	</tr>
+	</table>
 	<table cellpadding=0 cellspacing=0 border=0 width=330>
 	<form name="confirm_password" method="post" action="delete.jsp">
 		<tr bgcolor=#948dcf>

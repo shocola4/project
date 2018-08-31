@@ -31,18 +31,18 @@
 <body leftmargin='0' topmargin='0' marginwidth='0' marginheight='0'>
     <jsp:include page="../common/basic_screen.jsp" flush="true"/>
 
-<br>
-<form name=bbs_form method="post" action="write2.jsp" enctype="multipart/form-data">
-	  <table border=1 width=550 height=30 bordercolor=black>
+  <table border=0 width=685 height=30 >
 		<tr>
-			<td align=center bgcolor=#E68D8D><font size=3 color=#FFFFFF><b>상품 등록</b></td>
+			<td align="left"><font size=6 color=#D8D8D8><b>◎상품 등록</b></td>
 		</tr>
 	  </table>
 	  <br>
-<table width=550 border=1>
+<form name=bbs_form method="post" action="write2.jsp" enctype="multipart/form-data">
+	
+<table width="688" height="872" border="2" valign="middle" align="center" cellspacing="0" cellpadding="0" >
 	<tr>
-	   <td width=100 align=center bgcolor="#E68D8D">카테고리</td>
-	   <td width=170>&nbsp;
+	   <td width=80 align="center" bgcolor="#7eaee9"><font color="#fffff">카테고리</td>
+	   <td width="80" align="left" style="height: 45px; padding-left: 6px" >
 	   			<select name="category">
 						<option value="1">CPU</option>
 						<option value="2">RAM</option>
@@ -92,34 +92,34 @@
 		</c:forEach>
 
    --%>				
-	   <td width=100 align=center bgcolor="#E68D8D">판매가격</td>
-	   <td width=170>&nbsp;<input type="text" name="price" size=15 value=""></td>
+	   <td width=100 align=center bgcolor="#7eaee9"><font color="#fffff">판매가격</td>
+	   <td width=220>&nbsp;<input type="text" name="price" size=20 value=""></td>
 	</tr>	
-	<tr>
-	   <td width=100 align=center bgcolor="#E68D8D">판매자ID</td>
+	<tr height="40">
+	    <td width=100 align=center bgcolor="#7eaee9"><font color="#fffff">판매자ID</td>
 	   <td width=170>&nbsp;<input type="text" name="code" size=20 value="<%=member%>" readonly="readonly"></td>
-	   <td width=100 align=center bgcolor="#E68D8D">비밀번호</td>
-	   <td width=170>&nbsp;<input type="password" name="pwd" size=15 value=""></td>
+    	   <td width=100 align=center bgcolor="#7eaee9"><font color="#fffff">비밀번호</td>
+	   <td width=170>&nbsp;&nbsp;<input type="password" name="pwd" size=18 value=""></td>
 	</tr>	
-	<tr>
-	   <td width=100 align=center bgcolor="#E68D8D">연락처</td>
+	<tr height=35>
+	   <td width=100 align=center bgcolor="#7eaee9"><font color="#fffff">연락처</td>
 	   <td width=170>&nbsp;<input type="text" name="" size=20></td>
-	   <td width=100 align=center bgcolor="#E68D8D">제조사</td>
-	   <td width=170>&nbsp;<input type="text" name="company_id" size=15 value=""></td>
+	   <td width=100 align=center bgcolor="#7eaee9"><font color="#fffff">제조사</td>
+	   <td width=170>&nbsp;&nbsp;<input type="text" name="company_id" size=16 value=""></td>
 	</tr>
 	<tr>
-		<td width=100 align=center bgcolor="#E68D8D">파일첨부</td>
+		<td width=100 height="35" align=center bgcolor="#7eaee9"> <font color="#fffff">파일첨부</td>
 		<td  colspan=3>&nbsp;<input type="file" name="upload_file"></td>
 	</tr>	
 	<tr>
-	   <td align=center bgcolor="#E68D8D">상품명</td>
-	   <td colspan=3>&nbsp;<input type="text" name="name" size=40></td>
-	</tr>	
-	   <td align=center bgcolor="#E68D8D">상품정보</td>
-	   <td colspan=3>
+	   <td align=center height="53" bgcolor="#7eaee9"><font color="#fffff">상품명</td>
+	   <td colspan=3>&nbsp;&nbsp;<input type="text" name="b_title" size=30></td>
+	</tr>		
+	  	<td align=center bgcolor="#7eaee9" ><font color="#fffff">상품 정보</td>
+  <td colspan=3 bgcolor=ffffff>
    <table>
       <tr>
-         <td><textarea cols=60 rows=15 name="expression"></textarea></td>
+         <td><textarea cols=67 rows=40 name="expression"></textarea></td>
       </tr>
    </table>
 	  <tr>

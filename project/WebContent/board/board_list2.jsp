@@ -1,4 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" import="java.sql.*,oracle.dbpool.*"  %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
 
 <%@ page import="org.apache.log4j.*" %>
 
@@ -38,8 +41,8 @@
 	</table>
 	<br>
 	<table width=832 border=1 cellspacing=0 cellpadding=0  bordercolor="#C0C0C0" style="height: 500px; width: 800px;">
-		<tr bgcolor="#E68D8D" height=15>
-			<td width=100 align="center" bgcolor="#E68D8D"><font size="3" color="#fffff" >번호</font></td>
+		<tr bgcolor="#7eaee9" height=45>
+			<td width=100 align="center" bgcolor="#7EAEE9"><font size="3" color="#fffff" >번호</font></td>
 			<td width=130  align="center"><font size="3" color="#fffff" >상품이미지</font></td>
 			<td width=230 align="center"><font size="3" color="#fffff" >상품명</font></td>
 			<td width=30 align="center"><font size="3" color="#fffff" >가격</font></td>
@@ -135,7 +138,9 @@
              
              
 			 <td width=100 align="left" style="padding-left:12px;"><%=name%></td>
-			 <td width=100 align="left" style="padding-left:12px;"><%=price%></td>
+			 <td width=100 align="left" style="padding-left:12px;">
+			<c:set var="fmtPrice" value="<%=price%>"/>
+					<fmt:formatNumber value="${fmtPrice }" pattern="#,###" />원</td>
 			 <td width=20 align="left" style="padding-left:12px;"><%=company_id%></td>
 		  </tr>
 <%

@@ -98,7 +98,7 @@
  %>
 		<tr height=22 bgcolor=ffffff onMouseOver=this.style.backgroundColor='#FFF8DE'  onMouseOut=this.style.backgroundColor='#FFFFFF'>
 			<td width=50 align="left"  style="padding-left:12px;"><%= ii %></td>
-			<td width=230 align="left"  style="padding-left:12px;"><a href='BoardCheckPass.jsp?b_id=<%= b_id %>&b_pw=<%= b_pwd %>'>
+			<td width=230 align="left"  style="padding-left:12px;"><a href='show.jsp?b_id=<%= b_id %>'>
 <%			
 				if(level>0) { 
 					for(int i = 0; i< level; i++){

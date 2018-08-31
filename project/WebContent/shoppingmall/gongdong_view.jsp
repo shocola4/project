@@ -13,9 +13,9 @@
 
 <!--  공동구매보기 넣기   -->
 	<center><br>
-	  <table border=1 width=550 height=30 bordercolor=black>
+	  <table border=1 width=650 height=50 bordercolor=black>
 		<tr>
-			<td align=center bgcolor=0063ce><font size=2 color=white><b>공 동 구 매</b></td>
+			<td align="left"  bordercolor=white valign="top"  style="height: 50px;border-left-width: 1; border-top-width: 5;padding-left: 4px padding-top: 10px"><font size="5" color="#BDBDBD"><b>공 동 구 매</b></td>
 		</tr>
 	  </table>
 	  <br>

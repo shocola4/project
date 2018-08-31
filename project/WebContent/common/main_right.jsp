@@ -3,9 +3,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-<table align=center border =1 width=1000 cellpadding=0 cellspacing=0 bgcolor=#ffffff>
+<table align=center border =1 width=900 cellpadding=0 cellspacing=0 bgcolor=#ffffff>
 	<tr>
-		<td><table align=center border=0 width=1000  cellpadding=0 cellspacing=0 bgcolor=#ffffff><div align=center><img src="../img/bg-img1.gif" width=905 height=250 ></div></table></td>
+		<td><table align=center border=0 width=900  cellpadding=0 cellspacing=0 bgcolor=#ffffff><div align=center><img src="../img/main_window.JPG" width=905 height=250 ></div></table></td>
 	</tr>
 	</table>
 	<table>
@@ -23,8 +23,8 @@
 	<table align=center border =1 width=550 cellpadding=0 cellspacing=0 bgcolor=#ffffff>
 	
 	<!-- 최신상품 출력  -->
-	<tr>
-		<div align=center><td bgcolor=white><img src="../img/title_newproduct.gif"></div></td>
+	<tr height=35>
+		<div align=center ><td bgcolor=black><font color=white style="padding-left: 10px;'"><span style="font-weight:bold "size="4px"; align="center"; >최신상품</span></font></div></td>
 	</tr>
 	<tr>
 		<td width=550>
@@ -50,7 +50,7 @@
 			<table width=145 border=0 cellpadding=1 cellspacing=2 align=center>
 			<tr>
 				<td colspan=2 align=center><a href="../product/product.jsp?i=<%= id %>">
-				<img src="../product/image/<%= photo %>" width=90 height=90 border=0></a></td>
+				<img src="../product/image/<%= photo %>" width=155 height=155 border=0></a></td>
 			</tr>
 			<tr>
 				<td width=145><font color=blue>&nbsp;<a href="../product/product.jsp?i=<%= id %>">[<%=name%>]</a></font></td>
@@ -79,8 +79,8 @@
 
 
 	<!-- 베스트 상품 -->
-	<tr><div align=center>
-		<td bgcolor=white><img src="../img/title_bestproduct.gif"></div></td>
+<tr height=35>
+		<div align=center ><td bgcolor=black><font color=white style="padding-left: 10px;'"><span style="font-weight:bold "size="4px"; align="center"; >베스트상품</span></font></div></td>
 	</tr>
 	<tr>
 		<td bgcolor=#dddddd><img height=1 src="" width=1></td>
@@ -111,7 +111,7 @@
 			<table width=300 border=0 cellpadding=1 cellspacing=2 align=center>
 				<tr>
 					<td colspan=2 align=center valign=top><a href="../product/product.jsp?i=<%= id %>">
-						<img src="../product/image/<%=photo%>" width=90 height=90 border=0></a></td>
+						<img src="../product/image/<%=photo%>" width=155 height=155 border=0></a></td>
 				</tr>
 				<tr>
 					<td width=300><font color=blue>&nbsp;<a href="../product/product.jsp?i=<%= id %>">[<%=name%>]</a></font></td>
@@ -157,9 +157,9 @@
 		stmt1=con.createStatement();
 		rs1=stmt1.executeQuery("select qnaid,title,name,to_char(cdate,'yy-mm-dd') from qna where type='I' order by 1 desc" );
 %>		
-		<table border=0  cellpadding=0 cellspacing=0>
-			<tr><div align=left>
-				<td bgcolor=white><img src="../img/title_qna.gif"></div></td>
+		<table border=0  cellpadding=0 cellspacing=0 height=35>
+		<div align=center ><td bgcolor=black><font color=white style="padding-left: 10px;'"><span style="font-weight:bold "size="4px"; align="center"; >최근Q&A</span></font></div></td>
+	
 				<td colspan=2 align=right><a href="../board/qnashow.jsp?qnaid=1"><font color=blue>More...&nbsp;&nbsp;&nbsp;</font></a></b></td>
 			</tr>
 			<tr>
@@ -208,11 +208,10 @@
 
 <!-- 추천상품(오른쪽 메뉴) -->
 <td valign=top width=205>
-<td valign=top width=205>
+<td valign=top width=205 style="padding-top: 20px;">
 <table border=0 cellpadding=0 cellspacing=0 width=195>
-	<tr><div align=left>
-		<td bgcolor=white><img src="../img/title_hitproduct.gif"></div></td>
-		<td align=right>&nbsp;</td>
+	<tr><div align=center ><td><font color=gray style="padding-left: 10px;'"><span style="font-weight:bold "size="4px"; align="center"; >추천상품</span></font></div>
+		<td align=right valign="top">&nbsp;</td>
 	</tr>
 </table>
 <table border = 0 cellPadding=0 cellSpacing=0 width=170>
@@ -241,7 +240,7 @@
 	<tr>
 		<td rowspan=3 width=5><img src="" width=8 height=8 border=0></td>
 		<td width=65 height=70 align=left valign=middle><A href="../product/product.jsp?i=<%= id %>">
-          <img src="../product/image/<%= photo %>" width=60 height=60 border=0></A></td>
+          <img src="../product/image/<%= photo %>" width=82 height=100 border=0></A></td>
 		<td width=100><a href="../product/product.jsp?i=<%= id %>">[<%= name %>]</a><br>
           <font color=red>&nbsp;[<fmt:formatNumber value="${fmtPrice }" pattern="#,###" />&nbsp;원]</font>
 	</tr>

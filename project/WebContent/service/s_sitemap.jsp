@@ -26,21 +26,26 @@
 		<td width=292 height="330" style="padding-right:30px ">
 			<table width=220 border=0 cellspacing="0" cellpadding="0">
 				<tr> 
-					<td height=55><b><font color="#0000FF" size=3>쇼핑몰</font></b><br>
+					<td height=55><b><font color="#0000FF" size=5>쇼핑몰</font></b><br>&nbsp;
 						<img src="img/middle_line_01.gif" border=0 width=200></td>
 				</tr>                           
-				<tr>
-					<td><a href="../shoppingmall/gongi.jsp" id="dami"> &nbsp;공지사항</a></td>
+				<tr >
+					<td  ><font size=4><a href="../shoppingmall/gongi.jsp" id="dami"> &nbsp;●공지사항</a></td>
+					
 				</tr>
+				<tr height=10>
+						<td></td>
+						</tr>
 				 <tr>
-					<td><a href="../shoppingmall/newproduct.jsp"> &nbsp;신상품 코너</a></td>
+					<td><font size=4><a href="../shoppingmall/newproduct.jsp"> &nbsp;●신상품 코너</a></td>
 				</tr>
+				<tr height=10>
+						<td></td>
+						</tr>
 				<tr>
-					<td><a href="../shoppingmall/pc_calculation.jsp"> &nbsp;조립PC견적</a></td>
+					<td><font size=4><a href="../shoppingmall/pc_calculation.jsp"> &nbsp;●조립PC견적</a></td>
 				</tr>
-				<tr>
-					<td><a href="../shoppingmall/gongdong.jsp"> &nbsp;공동구매</a></td>
-				</tr>
+			
 			</table>
 			
 		<td width=88 height="330" style="padding-right:50px ">
@@ -53,25 +58,38 @@
 		<td width=352 align="left" style="padding-right:14px ">
 			<table width="287" border=0 cellspacing="0" cellpadding="0" bgcolor="#ffffff">
 				<tr> 
-					<td height=60><b><font color="#0000FF" size=3>내페이지</font></b><br>
+					<td height=60><b><font color="#0000FF" size=5>내페이지</font></b><br>&nbsp;
 						<img src="img/middle_line_01.gif" border=0 width=200></td>
 				</tr>
+				
 				<tr>
-					<td><a href="../member/user.jsp"> &nbsp;회원가입</a></td>
+					<td><font size=4><a href="../member/user.jsp"> &nbsp;●회원가입</a></td>
 				</tr>
+				<tr height=10>
+						<td></td>
+						</tr>
 				<tr>
 
-					<td><a href="../board/Mywrite.jsp"> &nbsp;내가 쓴 게시물</a></td>
+					<td><font size=4><a href="../board/Mywrite.jsp"> &nbsp;●내가 쓴 게시물</a></td>
 
 				</tr>
+				<tr height=10>
+						<td></td>
+						</tr>
 				<tr>
-					<td><a href="../member/modify.jsp?user_id=<%=user_id%>"> &nbsp;회원정보수정</a></td>
+					<td><font size=4><a href="../member/modify.jsp?user_id=<%=user_id%>"> &nbsp;●회원정보수정</a></td>
 				</tr>
+				<tr height=10>
+						<td></td>
+						</tr>
 				<tr>
-					<td><a href="../member/delete.jsp?user_id=<%=user_id%>"> &nbsp;회원탈퇴</a></td>
+					<td><font size=4><font size=4><a href="../member/delete.jsp?user_id=<%=user_id%>"> &nbsp;●회원탈퇴</a></td>
 				</tr>
+				<tr height=10>
+						<td></td>
+						</tr>
 				<tr>
-					<td><a href="../product/basket_view.jsp"> &nbsp;장바구니</a></td>
+					<td><font size=4><a href="../product/basket_view.jsp"> &nbsp;●장바구니</a></td>
 				</tr>
 			</table>
 		</td>
@@ -81,14 +99,20 @@
 				<td width=292 height=330  style="padding-right:30px ">
 					<table width="224" border=0 cellspacing="0" cellpadding="0" bgcolor="#ffffff">
 						<tr> 
-							<td height=50><b><font color="#0000FF" size=3>묻고답하기</font></b><br>
+							<td height=50><b><font color="#0000FF" size=5>묻고답하기</font></b><br>&nbsp;
 								<img src="img/middle_line_01.gif" border=0 width=200></td>
+						</tr>
+						<tr height=10>
+						<td></td>
 						</tr>                           
 						<tr>
-							<td><a href="../board/reply_list.jsp"> &nbsp;자유게시판</a></td>
+							<td><font size=4><a href="../board/reply_list.jsp"> &nbsp;●자유게시판</a></td>
+						</tr>
+						<tr height=10>
+						<td></td>
 						</tr>
 						<tr>
-							<td><a href="../service/inform_01.jsp"> &nbsp;FAQ</a></td>
+							<td><font size=4><a href="../service/inform_01.jsp"> &nbsp;●FAQ</a></td>
 						</tr>
 					</table> 
 				</td>
@@ -103,14 +127,22 @@
 				<td width=352 valign="top" align="left" >
 					<table width= 245 style="padding-right:12px " border=0 cellspacing="0" cellpadding="0" bgcolor="#ffffff">
 						<tr> 
-							<td height=50><b><font color="#0000FF" size=3>기 타</font></b><br>
+							<td height=50><font size=4><b><font color="#0000FF" size=5>기 타</font></b><br>&nbsp;
+							
 							<img src="img/middle_line_01.gif" border=0 width=200></td>
+							
+						</tr>
+						
+						
+						
+						<tr>
+							<td><font size=4><a href="../member/login_form.jsp"> &nbsp;●로그인</a></td>
+						</tr>
+						<tr height=10>
+						<td></td>
 						</tr>
 						<tr>
-							<td><a href="../member/login_form.jsp"> &nbsp;로그인</a></td>
-						</tr>
-						<tr>
-							<td><a href="../service/company_intro.jsp"> &nbsp;회사소개</a></td>
+							<td><font size=4><a href="../service/company_intro.jsp"> &nbsp;●회사소개</a></td>
 						</tr>
 					</table>
 				</td>

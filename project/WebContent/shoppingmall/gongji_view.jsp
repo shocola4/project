@@ -11,11 +11,12 @@
 	
 <!--  공지내용보기  -->	
 	<center><br>
-	  <table border=1 width=450 height=30 bordercolor=black>
-		<tr>
-			<td align=center bgcolor=0063ce><font size=2 color=white><b>공 지 사 항</b></td>
-		</tr>
-	  </table> <br>
+  <table border=0 width=685 height=30 >
+	<tr>
+		<td align=left><font size=6 color=#BDBDBD><b>◎공 지 사 항</b></td>
+	</tr>
+  </table>
+  <br>
 <%
 	try {
 		 String title,body,cdate;
@@ -35,12 +36,12 @@
 			cdate=rs.getString(4);
 			hits=rs.getInt(5);
 %>
-	<table border=1 cellpadding="1" cellspacing="2" width=450>
+	<table border=1 cellpadding="1" cellspacing="2" width=688>
 		<tr>
-			<th align="center" bgcolor="#c0c0c0"><p><font size="2">제목</font></th>
-			<th align="center" colspan=3><p><font size="2"><b><%=title%></b></font></th>
+           <td align=center height="45" bgcolor=black><font size="4" color="#fffff">제 목</td>
+			<th align="center" colspan=3><p><font size="4"><b><%=title%></b></font></th>
 		</tr>
-		<tr>
+		<tr height="35">
 			<th align="center" bgcolor="#c0c0c0"><p><font size="2">등록일</font></th>
 			<th align="center"><font size="2"><b><%=cdate%></b></font></th>
 			<th align="center" bgcolor="#c0c0c0"><p><font size="2">조회</font></th>
@@ -48,14 +49,14 @@
 		</tr>
 		<tr>
 			<td colspan="4" bgcolor="#fafafa">
-			<table border=0 cellpadding=0 cellspacing=0>
+			<table height=444 border=0 cellpadding=0 cellspacing=0>
 				<tr><p>&nbsp;</p>
-					<td><font size="2">&nbsp;&nbsp;<%=body%></font><p>&nbsp;</p></td>                       
+					<td><font size="6">&nbsp;&nbsp;<%=body%></font><p>&nbsp;</p></td>                       
 				</tr>
 			</table>
 		</tr>
 	</table>
-	<p align=center><font size=2><a href="gongi.jsp">목록으로</a></font></p>
+	<p align=center><font size=4><a href="gongi.jsp">목록으로</a></font></p>
 <%
 	}
 	rs.close(); 

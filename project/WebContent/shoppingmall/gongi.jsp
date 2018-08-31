@@ -13,21 +13,21 @@
 <!-- 공지사항 목록 출력 -->
 <center><br>
 	  
- <table border=1 width=500 height=30 bordercolor=black>
+ <table border=1 width=650 height=50 bordercolor=#BDBDBD>
 	<tr>
-		<td align=center bgcolor=0063ce><font size=3 color=white><b>공 지 사 항</b></td>
+		<td align="left"  bordercolor=white valign="top"  style="height: 50px;border-left-width: 1; border-top-width: 5;padding-left: 4px padding-top: 10px"><font size="5" color="#BDBDBD"><b>공 지 사 항</b></td>
 	</tr>
   </table><br>
 
-  <table border=0 cellpadding=0 cellspacing=0 width=450>
+  <table border=0 cellpadding=0 cellspacing=0 width=650>
     <tr>
        <td>
-	    <table width=450 border=1 cellpadding=0 cellspacing=1 border color=639cce>
-		<tr>
-		<th width=40 align=center nowrap bgcolor="#7eaee9"><p>번호</th>		
-		<th width=290 align=center nowrap bgcolor="#7eaee9"><p>제목</th>
-		<th width=120 align=center nowrap bgcolor="#7eaee9"><p>날짜</th>
-        <th width=40 align=center nowrap bgcolor="#7eaee9"><p>조회</th>
+	    <table width=650 border=1 cellpadding=0 cellspacing=1 border color=639cce>
+		<tr height="50">
+	<td width=70 align="center"bgcolor="#7EAEE9"><font size="3" color="#fffff" >번호</font></td>
+			<td width=230  align="center" bgcolor="#7EAEE9" ><font size="3" color="#fffff" >제목</font></td>
+			<td width=120 align="center"bgcolor="#7EAEE9"><font size="3" color="#fffff" >날짜</font></td>
+       <td width=60 align="center"bgcolor="#7EAEE9"><font size="3" color="#fffff" >조회</font></td>
 		</tr>
 <%
 try {
@@ -78,8 +78,8 @@ try {
 		hits=rs1.getInt(5); /* 페이지 조회수 */
         k++;
 %>
-	<tr onMouseOver=this.style.backgroundColor='#fff8de'  onMouseOut=this.style.backgroundColor='#ffffff'>
-		<td width=40 align=center><p><%=idnum%></td>
+	<tr height="30" onMouseOver=this.style.backgroundColor='#fff8de'  onMouseOut=this.style.backgroundColor='#ffffff'>
+		<td width=50 align="left"  style="padding-left:12px;"><p><%=idnum%></td>
 		<td width=290 align=left><p>&nbsp;
 		<a href="gongji_view.jsp?bid=<%=idnum%>"><%=title%>&nbsp;</a></td>
 		

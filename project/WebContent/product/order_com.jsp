@@ -12,7 +12,7 @@
 	String phone = request.getParameter("tel");
 	String mess = request.getParameter("message");
 
-	String sql = " update basket set  gubun='"+rr+"' ,message='"+mess+"' where user_id ='"+user_id+"'";
+	String sql = " update basket set  gubun='"+rr+"' ,message='"+mess+"' where m_uid ='"+user_id+"'";
 	String sql1 = "update member set mem_email=?, mem_address=?, mem_phone=? ";
 			 sql1 = sql1 + " where mem_uid ='"+user_id+"'";
 	try{

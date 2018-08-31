@@ -61,7 +61,7 @@ try {
   <br>
   <table border=0 width=685 height=30 >
 	<tr>
-		<td align=left><font size=6 color=#E6E6E6><b>◎게시물 읽기</b></td>
+		<td align=left><font size=6 color=#BDBDBD><b>◎게시물 읽기</b></td>
 	</tr>
   </table>
   <br>
@@ -99,8 +99,8 @@ try {
 	   	<td colspan=4  align=right height=28 >
 	   	  <a href="reply_form.jsp?b_id=<%=b_id%>"><img src="img/b_re.gif" border=0></a>
 		  <a href="update_form.jsp?b_id=<%=b_id%>"><img src="img/b_modify.gif" border=0></a>
-		  <a href="mailform.jsp?b_id=<%=b_id%>"><img src="img/singo.png" border=0></a> 
 		  <a href="delete_confirm.jsp?b_id=<%=b_id%>"><img src="img/b_delete.gif" border=0></a>
+		  <a href="mailform.jsp?b_id=<%=b_id%>"><img src="img/singo.png" border=0></a> 
 		  
 	   	</td>
 	  </TR>

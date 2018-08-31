@@ -1,6 +1,7 @@
 
 <%@ page contentType="text/html;charset=UTF-8" import="java.sql.*,oracle.dbpool.*"  %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <HTML>
 	<HEAD>
@@ -57,10 +58,10 @@
 			<tr bgcolor="edf5fe"> 
 				<td align=center><img border=0 name=PicMedium height=30 width=30 src="../product/image/<%=photo%>"></td>
 				<td  height=30 align="right">&nbsp;&nbsp;&nbsp;&nbsp;<a href="../product/product.jsp?i=<%= id%>"> <%=name%></a></td>
-				<td  height=30 align="right">&nbsp;&nbsp;&nbsp;&nbsp;
-				     <c:set var="fmtPrice" value="<%=price%>"/>
-				    <font > <fmt:formatNumber value="${fmtPrice }" pattern="#,###" />&nbsp;원</font>
-				</td>
+				<td  height=30 align="right">
+				<c:set var="fmtPrice" value="<%=price%>"/>
+					&nbsp;<fmt:formatNumber value="${fmtPrice }" pattern="#,###" />&nbsp;원
+                  </td>
 			</tr>
 <%	
 			}

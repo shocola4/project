@@ -40,7 +40,7 @@ function MM_showHideLayers() { //v3.0
  	<td width=95 height=24><a href="../member/user.jsp" onMouseOver="document.images[6].src='../img/ｂａｒ６.jpg';MM_showHideLayers('shop','','hide','member','','hide','qna','','hide');" onMouseOut="document.images[6].src='../img/ｂａｒ６.jpg';">
    <img src="../img/ｂａｒ６.jpg" width=95 height=24></a></td>
 
-	<td width=95 height=24><a src="../img/ｂａｒ７.jpg"  onMouseOver="document.images[7].src='../img/ｂａｒ７.jpg';MM_showHideLayers('shop','','hide','member','','hide','qna','','show')" onMouseOut="document.images[7].src='../img/ｂａｒ７.jpg';"><img name="Image3"  src="../img/ｂａｒ７.jpg" width=114 height=24></a></td>
+	<td width=95 height=24> <a src="../img/ｂａｒ７.jpg"  onMouseOver="document.images[7].src='../img/ｂａｒ７.jpg';MM_showHideLayers('shop','','hide','member','','hide','qna','','show')" onMouseOut="document.images[7].src='../img/ｂａｒ７.jpg';"><img name="Image3"  src="../img/ｂａｒ７.jpg" width=114 height=24></a></td>
 
 	<td width=30 height=24 border=0></td>
 
@@ -87,8 +87,10 @@ function MM_showHideLayers() { //v3.0
 	<div align=center><span class="layerstyle"><a href="../board/board_list.jsp">자유게시판</a></span> </div>
       </td>
         <td width=90 onMouseOver="this.style.backgroundColor='#cdcdcd'" onMouseOut="this.style.backgroundColor=''"> 
-	<div align=center><span class="layerstyle"><a href="../board/board_list2.jsp">상품게시판</a></span> </div>
+	<div align=center><span class="layerstyle"><a href="../board/board_list2.jsp">상품등록</a></span> </div>
       </td>
+         <td width=90 onMouseOver="this.style.backgroundColor='#cdcdcd'" onMouseOut="this.style.backgroundColor=''"> 
+	<div align=center><span class="layerstyle"><a href="../board/Boarde_list.jsp">상품문의</a></span> </div>
       <td width=80 onMouseOver="this.style.backgroundColor='#cdcdcd'" onMouseOut="this.style.backgroundColor=''"> 
         <div align=center class="layerstyle"><a href="../service/inform_01.jsp">F A Q</a></div>
       </td>

@@ -1,8 +1,8 @@
-<%@ page contentType="text/html;charset=euc_kr" import="java.sql.*,oracle.dbpool.*" %>
+<%@ page contentType="text/html;charset=utf-8" import="java.sql.*,oracle.dbpool.*" %>
 
 <HTML>
 	<HEAD>
-		<TITLE>ÄÄÇ»ÅÍÀü¹®¼îÇÎ¸ô</TITLE>
+		<TITLE>ì»´í“¨í„°ì „ë¬¸ì‡¼í•‘ëª°</TITLE>
 	<script language=JavaScript src="../common/u3.js"></script>
 	<link href="../common/u3.css" type=text/css rel=stylesheet>
 		</HEAD>
@@ -29,15 +29,15 @@ try {
 	<center><br>
 	<table border=1 cellpadding=0 cellspacing=0 width=550 align=center>
 		<tr bgcolor=#7aaad5>
-			<td height=30 align=middle bgcolor=#ccffcc><font size=3 color=#000000><b>[<%=pid%>]´ÔÀÇ ÁÖ¹®ÇÏ½Ç »óÇ°Àº ¾Æ·¡¿Í °°½À´Ï´Ù.</b></font></td>
+			<td height=30 align=middle bgcolor=#ccffcc><font size=3 color=#000000><b>[<%=pid%>]ë‹˜ì˜ ì£¼ë¬¸í•˜ì‹¤ ìƒí’ˆì€ ì•„ëž˜ì™€ ê°™ìŠµë‹ˆë‹¤.</b></font></td>
 		</tr>
 	</table>
 	<table border=1 align=center width=620>
 		<tr height=23>
-			<th bgcolor="#cc0000"><font color="#ffffff">»óÇ°¸í</font></th>
-			<th bgcolor="#cc0000"><font color="#ffffff">¼ö·®</font></th>
-			<th bgcolor="#cc0000"><font color="#ffffff">ÆÇ¸Å°¡</font></th>
-			<th bgcolor="#cc0000"><font color="#ffffff">ÇÕ°è</font></th>
+			<th bgcolor="#cc0000"><font color="#ffffff">ìƒí’ˆëª…</font></th>
+			<th bgcolor="#cc0000"><font color="#ffffff">ìˆ˜ëŸ‰</font></th>
+			<th bgcolor="#cc0000"><font color="#ffffff">íŒë§¤ê°€</font></th>
+			<th bgcolor="#cc0000"><font color="#ffffff">í•©ê³„</font></th>
 		</tr>
 <%
 	while(rs1.next()) {
@@ -50,15 +50,15 @@ try {
 %>
 		<tr>
 			<td  bgcolor=#ccffff><%= name %></font></td>
-			<td  bgcolor=#ffffcc align=right><%= qty %>°³&nbsp;</font></td> 
-			<td  bgcolor=#ffffcc align=right width=70><%=price%>¿ø</font></td>
-			<td  bgcolor=#ffffcc align=right width=120><%=price*qty%>¿ø</font></td>
+			<td  bgcolor=#ffffcc align=right><%= qty %>ê°œ&nbsp;</font></td> 
+			<td  bgcolor=#ffffcc align=right width=70><%=price%>ì›</font></td>
+			<td  bgcolor=#ffffcc align=right width=120><%=price*qty%>ì›</font></td>
 		</tr>
 <% } %>
 	</table>
 	<table align=center>
 		<tr>
-			<td><%= pid %> È¸¿ø´ÔÀÌ ±¸¸ÅÇÏ½Ç ÃÑ¼ö·®Àº [<%= totalqty %>°³] ÀÌ°í,  °áÁ¦ÇÏ½Ç ±Ý¾×Àº [<%=totalprice %>¿ø] ÀÔ´Ï´Ù</font></td>
+			<td><%= pid %> íšŒì›ë‹˜ì´ êµ¬ë§¤í•˜ì‹¤ ì´ìˆ˜ëŸ‰ì€ [<%= totalqty %>ê°œ] ì´ê³ ,  ê²°ì œí•˜ì‹¤ ê¸ˆì•¡ì€ [<%=totalprice %>ì›] ìž…ë‹ˆë‹¤</font></td>
 		</tr>
 	</table>
 <%
@@ -77,14 +77,14 @@ try {
 	<form name=reg method="post" action="order_com.jsp" >
 	<table width=500 border=1 cellspacing=3 cellpadding=0 align=center background="#ffffff">
 		<tr>
-			<th height=30 colspan=2 align=center bgcolor="#ffff99"><font size=3 color=black>[<%=pid%>]´ÔÀÇ ¹è¼ÛÁö¿¡ ´ëÇÑ&nbsp;¹ß¼ÛÀÎ Á¤º¸</font></th>
+			<th height=30 colspan=2 align=center bgcolor="#ffff99"><font size=3 color=black>[<%=pid%>]ë‹˜ì˜ ë°°ì†¡ì§€ì— ëŒ€í•œ&nbsp;ë°œì†¡ì¸ ì •ë³´</font></th>
 		</tr>
 		<tr>
-			<td  bgcolor='#e2edfa' width=100>&nbsp;È¸¿ø ID</td>
+			<td  bgcolor='#e2edfa' width=100>&nbsp;íšŒì› ID</td>
 			<td  bgcolor=f6f8fc>&nbsp;<%= user_id %></td>
 		</tr>
 		<tr>
-			<td  bgcolor=#e2edfa width=100>&nbsp;È¸¿ø ÀÌ¸§</td>
+			<td  bgcolor=#e2edfa width=100>&nbsp;íšŒì› ì´ë¦„</td>
 			<td  bgcolor=f6f8fc>&nbsp;<%= user_name %></td>
 		</tr>
 		<tr>
@@ -92,21 +92,21 @@ try {
 			<td  bgcolor=f6f8fc>&nbsp;<input type=text name=email size=40 value=<%= e_mail %>></td>
 		</tr>
 		<tr>
-			<td  bgcolor=#e2edfa width=100>&nbsp;ÁÖ¼Ò</font> </td>
+			<td  bgcolor=#e2edfa width=100>&nbsp;ì£¼ì†Œ</font> </td>
 			<td  bgcolor=f6f8fc>&nbsp;<input type=text name=addr size=40  value="<%= address %>"></td>
 		</tr>
 		<tr>
-			<td  bgcolor=#e2edfa width=100>&nbsp;ÀüÈ­¹øÈ£ </font></td>
+			<td  bgcolor=#e2edfa width=100>&nbsp;ì „í™”ë²ˆí˜¸ </font></td>
 			<td  bgcolor=f6f8fc>&nbsp;<input type=text name=tel value=<%=phone %>></td>
 		</tr>
 		<tr>
-			<td  bgcolor=#e2edfa width=100>&nbsp;ÁÖ¹®½Ã ÀüÇÒ ¸»</font></td>
+			<td  bgcolor=#e2edfa width=100>&nbsp;ì£¼ë¬¸ì‹œ ì „í•  ë§</font></td>
 			<td  bgcolor=f6f8fc>&nbsp;<textarea name="message" rows=3 cols=50></textarea></td>
 		</tr>
 		<tr>
 			<td   bgcolor="white" colspan=2 align=center> 
-				<input type=submit name=submit value="ÁÖ¹®ÇÏ±â">
-				<input type=reset name=reset value="´Ù½Ã¾²±â">
+				<input type=submit name=submit value="ì£¼ë¬¸í•˜ê¸°">
+				<input type=reset name=reset value="ë‹¤ì‹œì“°ê¸°">
 			</td>
 		</tr>
 	</table>

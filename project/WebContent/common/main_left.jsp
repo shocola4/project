@@ -33,6 +33,7 @@ function MM_showHideLayers() {
 //-->
 </script>
 
+
 <body>
 <table>
 <tr height="8"><td></td></tr>
@@ -40,14 +41,14 @@ function MM_showHideLayers() {
 
 <table width=210 border=0 cellspacing=0 cellpadding=0 align=left height=90>
    <tr>
-      <td height=22 valign=middle align=center><img src="../img/product_insert.jpg" width=210 height=89  style="cursor:hand" onclick=location="../board/write_form.jsp"></td>
+      <td height=22 valign=middle align=center><img src="../img/product_insert.jpg" width=210 height=89  style="cursor:hand" onclick=location="../board/board_list2.jsp"></td>
    </tr>
      </table>
 <table>
 <tr height="8"><td></td></tr>
 </table>
 
-<table width=200 border=1 cellspacing=0 cellpadding=0 align=left height=300>
+<table width=200 border=1 cellspacing=0 cellpadding=0 align=left >
 <img src="../img/category_top.jpg" width="219" height="30" border="0" style="
     width: 220x;
     height: 33px;
@@ -204,7 +205,7 @@ function MM_showHideLayers() {
 
 <table width=200 border=1 cellspacing=0 cellpadding=0 align=left height=300>
 <tr>
-<td><img src="../img/image_case.gif" width=125 height=150></td>
+<td><img src="../img/main_window left.JPG" width=200 height=295></td>
    </tr>
      </table>
 </body>
